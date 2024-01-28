@@ -38,10 +38,10 @@ export default function Page() {
             src="/hero-mobile.png"
             width={560}
             height={620}
-            className="hidden md:block"
+            className="block md:hidden"
             alt="Screenshots of the dashboard project showing desktop version"
           />
-          <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
+          {/* <div className="h-0 w-0 border-b-[30px] border-l-[20px] borde-r-[20px] border-b-black border-l-transparent border-r-transparent" /> */}
         </div>
       </div>
     </main>
